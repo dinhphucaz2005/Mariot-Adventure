@@ -28,7 +28,7 @@
 
     <PreferenceCategory android:title="@string/preference_game_settings" >
          <PreferenceScreen
-            xmlns:replica="http://schemas.android.com/apk/res/com.shikhar.androidgames"
+            xmlns:replica="http://schemas.android.com/apk/res/com.example.androidgames"
             android:key="audioConfigScreen"
             android:title="@string/preference_audio_controls" >
            <CheckBoxPreference
@@ -38,7 +38,7 @@
             	android:summaryOff="@string/preference_enable_sound_summary"
             	android:summaryOn="@string/preference_enable_sound_summary"
            		android:title="@string/preference_enable_sound" />
-            <com.shikhar.androidgames.mario.preferences.SliderPreference
+            <com.example.androidgames.phantom.preferences.SliderPreference
                 android:defaultValue="50"
                 android:key="soundVolume"
                 android:persistent="true"
@@ -53,7 +53,7 @@
            	 	android:summaryOff="@string/preference_enable_music_summary"
             	android:summaryOn="@string/preference_enable_music_summary"
             	android:title="@string/preference_enable_music" />
-            <com.shikhar.androidgames.mario.preferences.SliderPreference
+            <com.example.androidgames.phantom.preferences.SliderPreference
                 android:defaultValue="50"
                 android:key="musicVolume"
                 android:persistent="true"
@@ -64,7 +64,7 @@
         </PreferenceScreen>
 
          <PreferenceScreen
-            xmlns:replica="http://schemas.android.com/apk/res/com.shikhar.androidgames.mario.core"
+            xmlns:replica="http://schemas.android.com/apk/res/com.example.androidgames.mario.core"
             android:key="controlConfigScreen"
             android:title="@string/preference_configure_controls" >
             <CheckBoxPreference
@@ -75,7 +75,7 @@
                 android:summaryOn="@string/preference_enable_click_attack_summary"
                 android:title="@string/preference_enable_click_attack" />
 
-            <com.shikhar.androidgames.mario.preferences.KeyboardConfigDialogPreference
+            <com.example.androidgames.phantom.preferences.KeyboardConfigDialogPreference
                 android:dialogLayout="@layout/key_config"
                 android:dialogTitle="@string/preference_key_config_dialog_title"
                 android:key="keyconfig"
@@ -85,16 +85,16 @@
                 android:title="@string/preference_key_config"
                 replica:attackKey="keyAttack"
                 replica:jumpKey="keyJump"
-                xmlns:replica="http://schemas.android.com/apk/res/com.shikhar.androidgames"
+                xmlns:replica="http://schemas.android.com/apk/res/com.example.androidgames"
                 replica:leftKey="keyLeft"
                 replica:rightKey="keyRight" />
 
-            <com.shikhar.androidgames.mario.preferences.SliderPreference
+            <com.example.androidgames.phantom.preferences.SliderPreference
                 android:defaultValue="100"
                 android:key="movementSensitivity"
                 android:persistent="true"
                 android:summary="@string/preference_movement_sensitivity_summary"
-                xmlns:replica="http://schemas.android.com/apk/res/com.shikhar.androidgames"
+                xmlns:replica="http://schemas.android.com/apk/res/com.example.androidgames"
                 android:title="@string/preference_movement_sensitivity"
                 replica:maxText="@string/preference_movement_max"
                 replica:minText="@string/preference_movement_min" />
@@ -116,11 +116,11 @@
                 android:summaryOn="@string/preference_enable_tilt_controls_summary"
                 android:title="@string/preference_enable_tilt_controls" />
 
-            <com.shikhar.androidgames.mario.preferences.SliderPreference
+            <com.example.androidgames.phantom.preferences.SliderPreference
                 android:defaultValue="50"
                 android:dependency="enableTiltControls"
                 android:key="tiltSensitivity"
-                xmlns:replica="http://schemas.android.com/apk/res/com.shikhar.androidgames"
+                xmlns:replica="http://schemas.android.com/apk/res/com.example.androidgames"
                 android:persistent="true"
                 android:summary="@string/preference_tilt_sensitivity_summary"
                 android:title="@string/preference_tilt_sensitivity"
@@ -131,7 +131,7 @@
      </PreferenceCategory>
 
     <PreferenceCategory android:title="@string/preference_save_game" >
-        <com.shikhar.androidgames.mario.preferences.YesNoDialogPreference
+        <com.example.androidgames.phantom.preferences.YesNoDialogPreference
             android:dialogMessage="@string/preference_erase_save_game_dialog"
             android:dialogTitle="@string/preference_erase_save_game_dialog_title"
             android:key="erasegame"
@@ -152,10 +152,10 @@
         <PreferenceScreen android:title="@string/preference_visit_site" >
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="http://www.shikharclasses.com" />
+                android:data="http://www.exampleclasses.com" />
         </PreferenceScreen>
         <PreferenceScreen android:title="@string/preference_misc"
-            xmlns:replica="http://schemas.android.com/apk/res/com.shikhar.androidgames.mario.preferences"
+            xmlns:replica="http://schemas.android.com/apk/res/com.example.androidgames.mario.preferences"
             android:key="aboutScreen">
             <Preference
                 android:enabled="false"

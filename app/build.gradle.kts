@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.shikhar.androidgames"
+    namespace = "com.example.androidgames"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.shikhar.androidgames"
+        applicationId = "com.example.androidgames"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

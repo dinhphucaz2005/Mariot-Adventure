@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="app_name">Super Mario</string>
+<string name="app_name">Super Marionette</string>
 <string name="change_level">Switch Levels</string>
 <string name="test_animation">Test Animation</string>
 <string name="test_diary">Test Diary</string>
@@ -78,11 +78,11 @@
 
 
 <string name="preference_about">About</string>
-<string name="preference_about_title">About Super Mario</string>
-<string name="preference_about_summary">Super Mario is android remake of famous Nintendo\'s Mario Brothers and  is developed by Mahesh Kurmi (a hobiest Programmer), Aman Gupta(Student of IITD), Nitin Kukreja(A Student of NIT Trichi).</string>
-<string name="preference_visit_site">Go to the Super Mario web site</string>
+<string name="preference_about_title">About Super Marionette</string>
+<string name="preference_about_summary">Super Marionette is android remake of famous Nintendo\'s Marionette Brothers and  is developed by Mahesh Kurmi (a hobiest Programmer), Aman Gupta(Student of IITD), Nitin Kukreja(A Student of NIT Trichi).</string>
+<string name="preference_visit_site">Go to the Super Marionette web site</string>
 <string name="preference_thanks_title">Special Thanks</string>
-<string name="preference_thanks_summary">Special Thanks to meatfighter.com (for assets and base of game),Softendo.com(levels of game are taken from SuperMario Forever) Chris Pruett and Genki Mine (for Replica Island Source), Nintendo, and the Android Team for their support of this project.</string>
+<string name="preference_thanks_summary">Special Thanks to meatfighter.com (for assets and base of game),Softendo.com(levels of game are taken from SuperMarionette Forever) Chris Pruett and Genki Mine (for Replica Island Source), Nintendo, and the Android Team for their support of this project.</string>
 <string name="preference_licence_title">License</string>
 <string name="preference_licence_summary">Portions of this game are modifications based on work created and shared by Google and some open source projects under gnu Licence.</string>
 <string name="preference_misc">More Information</string>
@@ -119,9 +119,9 @@
 
 <string name="nav_type">Trackball</string>
 
-<string name="whats_new_dialog_title">Super Mario</string>
+<string name="whats_new_dialog_title">Super Marionette</string>
 <string name="whats_new_dialog_ok">Rock on!</string>
-<string name="whats_new_dialog_message">Thanks for downloading Super Mario.  Over 1.5 million people have played Super Mario !\n\n
+<string name="whats_new_dialog_message">Thanks for downloading Super Marionette.  Over 1.5 million people have played Super Marionette !\n\n
 <b>New in this version:</b>\n
 - Unlockable extra modes: Linear Story Mode and Level Select.\n
 - On-screen controls for devices with no buttons.\n
@@ -146,7 +146,7 @@ Based on your device hardware, the following control scheme has been automatical
 &lt;br>
 &lt;small>%1s&lt;/small>
 &lt;br>
-&lt;br>Super Mario supports many different control configurations.  Control options can be changed at 
+&lt;br>Super Marionette supports many different control configurations.  Control options can be changed at 
 any time using the Configure Controls button in Options.
 &lt;br>
 &lt;br>
@@ -160,7 +160,7 @@ settings manually now?</string>
 <string name="onscreen_tilt_dialog_title">New Control Scheme!</string>
 <string name="onscreen_tilt_dialog_ok">On-Screen Pad</string>
 <string name="onscreen_tilt_dialog_cancel">Stick with Tilt</string>
-<string name="onscreen_tilt_dialog_message">This version of Super Mario  adds an option for 
+<string name="onscreen_tilt_dialog_message">This version of Super Marionette  adds an option for 
 <b>On-Screen Controls</b> for multi-touch devices.  Your device supports this new 
 mode, but your options are currently set to <b>Tilt</b> controls.  Would you like to try the 
 new On-Screen Controls instead, or stick with Tilt? 

@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.shikhar.androidgames"
+    package="com.example.androidgames"
     android:versionCode="1"
     android:versionName="1.0">
 
@@ -11,7 +11,7 @@
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
         <activity
-            android:name=".mario.core.MarioGame"
+            android:name="com.example.androidgames.phantom.core.MarioGame"
             android:exported="true"
             android:label="@string/app_name"
             android:screenOrientation="landscape"
@@ -24,7 +24,7 @@
         </activity>
 
         <activity
-            android:name="com.shikhar.androidgames.mario.preferences.SetPreferencesActivity"
+            android:name="com.example.androidgames.phantom.preferences.SetPreferencesActivity"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="landscape"
             tools:ignore="DiscouragedApi" />
