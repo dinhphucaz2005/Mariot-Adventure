@@ -3,12 +3,6 @@ package com.shikhar.androidgames.framework;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * class to collect objects together.
- * @author mahesh
- *
- * @param <T>
- */
 public class Pool<T> {
 	public interface PoolObjectFactory<T> {
 		public T createObject();

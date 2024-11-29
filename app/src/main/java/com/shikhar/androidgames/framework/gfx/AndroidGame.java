@@ -24,18 +24,6 @@ import android.util.Log;
 import android.view.Window;
 import android.view.WindowManager;
 
-/**
- * 
- * <li>Perform window management. In our context, this means setting up an
- * activity and an AndroidFastRenderView, and handling the activity life cycle
- * in a clean way.</li> <li>Use and manage a WakeLock so that the screen does
- * not dim. Instantiate and hand out references to Graphics, Audio, FileIO, and
- * Input to interested parties.</li> <li>Manage Screens and integrate them with
- * the activity life cycle.</li>
- * 
- * @author mahesh
- * 
- */
 public abstract class AndroidGame extends Activity implements Game {
 	protected GameView renderView;
 	protected Graphics graphics;

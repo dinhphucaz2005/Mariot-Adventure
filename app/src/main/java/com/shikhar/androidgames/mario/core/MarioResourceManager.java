@@ -14,12 +14,6 @@ import android.graphics.Canvas;
 import android.util.Log;
 
 
-/**
- * 
- * this class will be responsible for loading/unloading our game resources (art, fonts, audio) 
- * this class will use singleton holder, which means we will be able to access this class from the global level.
- * @author Mahesh Kurmi
- */
 public class MarioResourceManager
 {
     //---------------------------------------------

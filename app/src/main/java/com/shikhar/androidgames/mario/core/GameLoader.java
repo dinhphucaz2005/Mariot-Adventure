@@ -48,11 +48,6 @@ import com.shikhar.androidgames.mario.objects.tiles.Tree;
 import com.shikhar.androidgames.mario.util.SpriteMap;
 
 
-/**
- * map loader class
- * @author mahesh
- *
- */
 public class GameLoader {
 	
 	private ArrayList<Bitmap> plain;

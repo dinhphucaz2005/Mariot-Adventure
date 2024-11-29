@@ -4,11 +4,6 @@ import com.shikhar.androidgames.framework.Sound;
 
 import android.media.SoundPool;
 
-/**
- *  short sounds (which are repeated over and over again) which can be stored to memory
- * @author mahesh
- *
- */
 public class AndroidSound implements Sound {
 	/** integer ID to keep track of various sounds, play them, and dispose them from memory*/
 	int soundId;

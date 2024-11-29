@@ -1,13 +1,5 @@
 package com.shikhar.androidgames.framework;
 
-/**
- * A Screen interface for displaying/changing game screens.
- * This is an abstract class (not really an interface, which you 
- * cannot use to create objects with (although you can subclass it).. Some of these methods will be familiar, such as paint and update (they are named as they were in Units 2 and 3). They now have a parameter called deltaTime (which takes into account how much time passed 
- * since the last time the method was called) that we can use to create framerate independent movement (more on this later)
- * @author mahesh
- *
- */
 public abstract class Screen {
 	protected final Game game;
 

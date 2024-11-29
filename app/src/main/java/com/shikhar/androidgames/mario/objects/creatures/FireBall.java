@@ -9,11 +9,6 @@ import com.shikhar.androidgames.mario.objects.base.Creature;
 import android.graphics.Bitmap;
 import android.graphics.Point;
 
-/**
- * Mario can fire fireballs (if loaded) to kill enemies
- * @author mahesh
- *
- */
 public class FireBall extends Creature {
 
 

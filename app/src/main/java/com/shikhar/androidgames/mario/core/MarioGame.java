@@ -7,11 +7,6 @@ import com.shikhar.androidgames.framework.gfx.AndroidGame;
 import com.shikhar.androidgames.mario.objects.base.Creature;
 import com.shikhar.androidgames.mario.screens.SplashLoadingScreen;
 
-/**
- * Main Entry Class for the game (Only activity used in game)
- * @author mahesh
- *
- */
 public class MarioGame extends AndroidGame{
 	boolean firstTimeCreate = true;
 	public MarioResourceManager resourceManager;

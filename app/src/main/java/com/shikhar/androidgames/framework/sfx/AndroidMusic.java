@@ -11,11 +11,6 @@ import android.media.MediaPlayer.OnCompletionListener;
 import android.media.MediaPlayer.OnPreparedListener;
 import android.media.MediaPlayer.OnSeekCompleteListener;
 
-/**
- * longer sounds (which are lengthy and take up a lot of memory) can be played directly from the file system.
- * @author mahesh
- *
- */
 public class AndroidMusic implements Music, OnCompletionListener, OnPreparedListener, OnSeekCompleteListener {
 	MediaPlayer mediaPlayer;
 	boolean isPrepared = false;

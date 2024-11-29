@@ -8,16 +8,6 @@ import android.content.Context;
 import android.os.Build.VERSION;
 import android.view.View;
 
-/**
- * The Input implementation of our game framework ties together all the handlers
- * we have developed. Any method calls are delegated to the corresponding
- * handler. The only interesting part of this implementation is choosing which
- * TouchHandler implementation to use, based on the Android version the device
- * is running.
- * 
- * @author mahesh
- * 
- */
 public class AndroidInput implements Input {
 	AccelerometerHandler accelHandler;
 	KeyboardHandler keyHandler;

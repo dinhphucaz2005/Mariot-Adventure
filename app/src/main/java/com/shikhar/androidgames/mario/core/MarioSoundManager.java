@@ -9,11 +9,6 @@ import com.shikhar.androidgames.framework.Music;
 import com.shikhar.androidgames.framework.Sound;
 import com.shikhar.androidgames.framework.sfx.AndroidAudio;
 
-/**
- * Manages sound and musics for the game
- * @author mahesh
- *
- */
 public class MarioSoundManager extends AndroidAudio{
 	private static Sound bump, kick, coin, jump, pause, itemSprout, bonusPoints, healthUp, healthDown, brick_shatter,fireball,die,powerUp,powerDown,stomp;
     
