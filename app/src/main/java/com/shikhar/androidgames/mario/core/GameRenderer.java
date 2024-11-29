@@ -295,7 +295,7 @@ public class GameRenderer {
         //g.drawText("dx: " + dd2dec, 300, 17,paint);
        
         if (drawHudEnabled){
-    	  drawStringDropShadowAsHud(g,"MARIO x "+Settings.getLives(),8,4,0,1);
+    	  drawStringDropShadowAsHud(g,"PHANTOM x "+Settings.getLives(),8,4,0,1);
     	  drawStringDropShadowAsHud(g,df2.format(Settings.getScore()),8,20,0,1);
      	 
     	  g.drawBitmap(MarioResourceManager.Coin_Icon, 108,4, null);
